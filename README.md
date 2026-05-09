@@ -22,7 +22,7 @@ The frontend provides a responsive and user-friendly interface for the BankingAp
 - Form validation and error handling
 
 ## Backend Repository
-This frontend application communicates with the BankingApp backend API developed using Spring Boot and Spring Security.
+This frontend application communicates with the BankingApp backend API developed using Spring Boot and Spring Security. Bankend is committed to a different repository.
 
 ## Author
 Developed by Manuja Rajakaruna
