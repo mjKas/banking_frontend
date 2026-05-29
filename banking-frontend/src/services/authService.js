@@ -27,7 +27,7 @@ export const getProtectedData = async () => {
 
     const token = localStorage.getItem("token");
 
-    return axios.get("http://localhost:8080/api/test", {
+    return axios.get("http://3.87.142.84:8080/api/test", {
         headers: {
             Authorization: `Bearer ${token}`
         }
