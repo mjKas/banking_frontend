@@ -2,7 +2,7 @@ import axios from "axios";
 //localhost
 //const API_URL = "http://localhost:8080/auth";
 //AWS 
-const API_URL = "http://54.236.21.144:8080/auth";
+const API_URL = "http://3.87.142.84:8080/auth";
 
 export const signup = async (data) => {
     return axios.post(`${API_URL}/signup`, data);
