@@ -1,8 +1,8 @@
 import axios from "axios";
-//localhost
+//localhip address changedost
 //const API_URL = "http://localhost:8080/auth";
 //AWS 
-const API_URL = "http://3.87.142.84:8080/auth";
+const API_URL = "http://100.55.227.121:8080/auth";
 
 export const signup = async (data) => {
     return axios.post(`${API_URL}/signup`, data);
@@ -27,7 +27,7 @@ export const getProtectedData = async () => {
 
     const token = localStorage.getItem("token");
 
-    return axios.get("http://3.87.142.84:8080/api/test", {
+    return axios.get("http://100.55.227.121:8080/api/test", {
         headers: {
             Authorization: `Bearer ${token}`
         }
